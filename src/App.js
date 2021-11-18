@@ -1,5 +1,6 @@
 import './App.css';
-import BasicForm from './componants/BasicForm';
+import LifeCycleA from './componants/LifeCycleA';
+// import BasicForm from './componants/BasicForm';
 //import Css from './componants/Css';
 //import Inline from './Inline';
 // import NameList from './componants/NameList';
@@ -12,9 +13,10 @@ function App() {
       {/* <UserGreeting/> */}
       {/* <Css primary={true} /> */}
       {/* <Inline /> */}
+      {/* <BasicForm/> */}
+      <LifeCycleA/>
 
-
-      <BasicForm/>
+     
     </div>
   );
 }
