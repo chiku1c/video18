@@ -1,6 +1,7 @@
 import './App.css';
-import Css from './componants/Css';
-import Inline from './Inline';
+import BasicForm from './componants/BasicForm';
+//import Css from './componants/Css';
+//import Inline from './Inline';
 // import NameList from './componants/NameList';
 // import UserGreeting from './componants/UserGreeting';
 
@@ -10,7 +11,10 @@ function App() {
       {/* <NameList /> */}
       {/* <UserGreeting/> */}
       {/* <Css primary={true} /> */}
-      <Inline />
+      {/* <Inline /> */}
+
+
+      <BasicForm/>
     </div>
   );
 }
