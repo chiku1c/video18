@@ -1,5 +1,6 @@
 import './App.css';
 import LifeCycleA from './componants/LifeCycleA';
+import PureComponantent from './componants/PureComponantent';
 // import BasicForm from './componants/BasicForm';
 //import Css from './componants/Css';
 //import Inline from './Inline';
@@ -14,7 +15,8 @@ function App() {
       {/* <Css primary={true} /> */}
       {/* <Inline /> */}
       {/* <BasicForm/> */}
-      <LifeCycleA/>
+      {/* <LifeCycleA/> */}
+      <PureComponantent/>
 
      
     </div>
